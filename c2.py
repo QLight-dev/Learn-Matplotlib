@@ -23,3 +23,9 @@ ypoints = np.array([0, 2, 4, 6, 7, 8, 3, 5])
 
 plt.plot(xpoints, ypoints)
 plt.show()
+
+# Defualt x points:
+ypoints = np.array([3, 8, 1, 10, 5, 7])
+
+plt.plot(ypoints)
+plt.show()
