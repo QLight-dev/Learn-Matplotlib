@@ -1,4 +1,4 @@
-import matplotib
+import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt 
 import numpy as np 
@@ -18,5 +18,5 @@ plt.show()
 plt.plot(ypoints, marker = '*', ms = '30')
 plt.show()
 
-# Marker Color
+# Marker Colori
 plt.plot(ypoints, marker = 'o', ms = 10, mec = 'g')
